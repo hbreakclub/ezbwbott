@@ -106,7 +106,7 @@
     },
     "REM_BG_API_KEY": {
       "description": "API Key for .rbg command. Get from https://www.remove.bg/api",
-      "value": "GPLyodhzj3uY2fnJbSsnKek8"
+      "value": "GPLyodhzj3uY2fnJbSsnKek8",
       "required": false
     },
     "ANTI_SPAMBOT": {
