@@ -180,7 +180,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/07b31fde5e116447c6bcb.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/c7d9f27efffd2ac349d8a.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -424,7 +424,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "Repo ezbw",
-                                "https://github.com/hbreakclub/ezbwt"),
+                                "https://github.com/hbreakclub/ezbw"),
                             custom.Button.url(
                                 "Pemilik Repo",
                                 "t.me/e69boys")],

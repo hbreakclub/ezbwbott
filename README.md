@@ -1,5 +1,14 @@
 # 𝙚𝙯𝙗𝙬
-![ezbw Logo](https://telegra.ph/file/07b31fde5e116447c6bcb.jpg)
+![ezbw Logo](https://telegra.ph/file/c7d9f27efffd2ac349d8a.jpg)
+
+## <p align="center">𝙚𝙯𝙗𝙬</p>
+
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/hbreakclub/ezbw/tree/ezbw"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+
+<br>
+</p>
+
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
@@ -28,13 +37,6 @@ Caranya Pergi Ke Grup Support Alvin Lalu Ketik #String [TEKAN DISINI](https://t.
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
 Atau Bisa Gabung Ke Grup Alvin -> [TEKAN DISINI](https://t.me/LordUserbot_Group)
-## <p align="center">DEPLOY 𝙚𝙯𝙗𝙬</p>
-
-
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/hbreakclub/ezbw/tree/ezbw"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
-
-<br>
-</p>
 
 ## Credit
 TERIMAKASIH UNTUK
