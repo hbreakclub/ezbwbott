@@ -240,9 +240,9 @@ async def amireallyalive(alive):
         f"━━━━━━━━━━━━━━━━━━━"
     if ALIVE_LOGO:
         try:
-            logo = ALIVE_LOGO
+            logo=ALIVE_LOGO
             await alive.delete()
-            msg = await bot.send_file(alive.chat_id, logo, caption=output)
+            msg=await bot.send_file(alive.chat_id, logo, caption=output)
             await asyncio.sleep(500)
             await msg.delete()
         except BaseException:
@@ -258,23 +258,23 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern="^.aliveu")
+@ register(outgoing=True, pattern="^.aliveu")
 async def amireallyaliveuser(username):
     """ For .aliveu command, change the username in the .alive command. """
-    message = username.text
-    output = ".aliveu [username] tidak boleh kosong"
+    message=username.text
+    output=".aliveu [username] tidak boleh kosong"
     if not (message == ".aliveu" or message[7:8] != " "):
-        newuser = message[8:]
+        newuser=message[8:]
         global DEFAULTUSER
-        DEFAULTUSER = newuser
-        output = "Berhasil mengubah pengguna pada .alive ke " + newuser + "!"
+        DEFAULTUSER=newuser
+        output="Berhasil mengubah pengguna pada .alive ke " + newuser + "!"
     await username.edit("`" f"{output}" "`")
 
 
-@register(outgoing=True, pattern=r"^\.resetalive$")
+@ register(outgoing=True, pattern=r"^\.resetalive$")
 async def amireallyalivereset(ureset):
     global DEFAULTUSER
-    DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+    DEFAULTUSER=str(ALIVE_NAME) if ALIVE_NAME else uname().node
     await ureset.edit("`" "Berhasil mereset pengguna Alive!" "`")
 
 
