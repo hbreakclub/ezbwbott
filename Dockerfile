@@ -1,5 +1,5 @@
 # ezbw USERBOT
-FROM heartbreakclub/ezbw:ezbw
+FROM liualvinas24/lord-docker:Lord
 
 #
 # ezbw
