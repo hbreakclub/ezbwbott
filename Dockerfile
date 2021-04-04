@@ -4,7 +4,7 @@ FROM liualvinas24/lord-docker:Lord
 #
 # ezbw
 #
-RUN git clone -b Lord-Userbot https://github.com/hbreakclub/ezbw /root/userbot
+RUN git clone -b master https://github.com/hbreakclub/ezbw /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
