@@ -28,10 +28,11 @@ Caranya Pergi Ke Grup Support Alvin Lalu Ketik #String [TEKAN DISINI](https://t.
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
 Atau Bisa Gabung Ke Grup Alvin -> [TEKAN DISINI](https://t.me/LordUserbot_Group)
+
 ## <p align="center">DEPLOY 𝙚𝙯𝙗𝙬</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/hbreakclub/ezbw/tree/ezbw"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/hbreakclub/ezbw/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
